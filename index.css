@@ -211,7 +211,7 @@ font-size: 105px;
     flex-wrap: wrap;
     padding-top: 30px;
     justify-content: space-around;
-    /* cursor: pointer; */
+    /* cursor: pointer;  */
     user-select: none;
 }
 .services h1{
