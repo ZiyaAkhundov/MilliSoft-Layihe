@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektron Jurnal</title>
+    <link rel="shortcut icon" href="Millisoft-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="user-panel2.css">
+    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="user-panel2-table.css">
+</head>
+<body>
+    <div class="loading">
+        <span class="back" >
+        <span>L</span>
+        <span>o</span>
+        <span>a</span>
+        <span>d</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+    </span>
+  </div>
+  <div class="page">
+    <section class="container-main">
+     <div class="menu">
+        <div class="menu-bar">
+            <div class="menu-blocks menu-header">
+                <h2>Millisoft</h2>
+                <p>Admin Paneli</p>
+                 </div>
+            <div class="menu-blocks">
+           <a href="user-panel-millisoft.html"><i class="fa-solid fa-user-group"></i>Qruplar</a>
+            </div>
+            <div class="menu-blocks">
+                <a href=""><i class="fa-solid fa-book-open"></i>Tədris Planı</a>
+            </div>
+            <div class="menu-blocks">
+                <a href=""><i class="fa-solid fa-play"></i>Videolar</a>
+             </div>
+            <div class="menu-blocks">
+                    <a href=""><i class="fa-regular fa-calendar-days"></i>Elektron Jurnal</a>
+            </div>
+            <div class="menu-blocks">
+                <a href=""><i class="fa-solid fa-pen"></i>Qiymətləndirmə</a>
+            </div>
+            <div class="menu-blocks">
+                <a href="" id="accounts"><i class="fa-solid fa-users"></i>Hesablar</a>
+            </div>
+        </div>
+     </div>
+     <div class="main">
+        <div class="navbar">
+            <div class="navbar-main">
+                <div class="navbar-search">
+                 <form action="">
+                    <input type="text" placeholder="Search">
+                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                </div>
+                <div class="navbar-account">
+                    <div class="navbar-account-main">
+                        <p id="navbar_account_p">Millisoft</p>
+                   <img id="profilePhoto"src="profile.jpg" alt="">
+                    </div>
+                   <div class="navbar-account-options">
+                    <ul>
+                        <li class="account-photo"><input type="file" id="photo" accept="image/png, image/jpg, image/jpeg">
+                            <label class="profile-button settings-profile-button" for="photo">
+                                <span class="profile-button-inner">Change profile Photo <i class="fa-solid fa-cloud-arrow-up"></i></span>
+                            </label>
+                        </li>
+                        <li><a href="" id="navAccountSettings">Account settings</a></li>
+                        <li><a href="daxilol.html">Sign out</a></li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="header">
+                <div class="buttons">
+                    <button id="journal">Elektron jurnal</button>
+                    <button id="lab">Laboratoriya isi</button>
+                </div>
+            </div>
+            <div class="table" id="journal1">
+                <table >
+                    <thead>
+                        <tr>
+                            <th >№</th>
+                            <th class="name">Soyad, Ad, Ata adı</th>
+                            <th class="journalhead">14.12.2022 13:30 (S)</th>
+                            <th class="journalhead">16.12.2022 15:05 (S)</th>
+                            <th class="journalhead">21.12.2022 13:30 (S)</th>
+                            <th class="journalhead">23.12.2022 15:05 (S)</th>
+                            <th class="journalhead">28.12.2022 13:30 (S)</th>
+                            <th class="journalhead">30.12.2022 15:05 (S)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="jurnal1">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal">
+                <div class="close">
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </div>
+                <div class="evaluation">
+                    <button class="label ie" id="ie">i/e</button>
+                    <button class="label qb" id="qb">qb</button>
+                    <button class="label b" id="b">b.</button>
+                </div>
+            </div>
+            <div class="lab" id="journal2">
+                <button class="labbutton" id="labbutton">Lab isi say</button>
+                <table >
+                    <thead>
+                        <tr id="labisibasliq">
+                            <th>№</th>
+                            <th class="name1">Soyad, Ad, Ata adı</th>
+                        </tr>
+                    </thead>
+                    <tbody id="jurnal2">
+    
+                    </tbody>
+                </table>
+                <div class="lab-modal">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark" id="close1"></i>
+                    </div>
+                    <div class="labsay">
+                        <input type="number" id="count">
+                        <button id="lablog">Daxil et</button>
+                    </div>
+                </div>
+                <div class="time-interval-modal">
+                    <div class="close timeclose" >
+                        <i class="fa-solid fa-xmark" id="timeclose"></i>
+                    </div>
+                    <div class="time">
+                        <input type="date" id="first-date">
+                        <input type="date" id="finish-date">
+                    </div>
+                    <div class="add">
+                        <button id="timeintervalbutton">Təyin et</button>
+                    </div>
+                </div>
+                <div class="lab-evaluation-modal">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark" id="close3"></i>
+                    </div>
+                    <div class="evaluation1">
+                        <button class="label1 tamam" id="tamam">Tamam</button>
+                        <button class="label1 natamam" id="natamam">Na-tamam</button>
+                        <button class="label1 sifir" id="sifir">0</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        <div class="settings">
+            <div class="settings-close">
+                <i class="fa-solid fa-xmark" id="settingsXmark"></i>
+            </div>
+            <div class="settings-profile">
+             <img src="profile.jpg" alt="" id="settingsAccountImage">
+             <p id="settingsAccountName"></p>
+            </div>
+            <div class="profile-photo-change">
+                <label class="profile-button" for="photo">
+                    <span class="profile-button-inner">Change profile Photo <i class="fa-solid fa-cloud-arrow-up"></i></span>
+                </label>
+            </div>
+            <div class="settings-dark-mode">
+                <h1>Dark Mode</h1>
+                <label class="switch" for="input">
+                    <input type="checkbox" id="input">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="settings-password-change">
+             <h1>Change your password</h1>
+             <input type="password" placeholder="Your current password" id="currentPassword">
+             <input type="password" placeholder="New password" id="newPassword">
+             <input type="password" placeholder="Confirm new password" id="ConfirmNewPassword">
+             <button id="settingsPasswordChangeButton">Change</button>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="elektron-jurnal-admin.js"></script>
+</body>
+</html>
