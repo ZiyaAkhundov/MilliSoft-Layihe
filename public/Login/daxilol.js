@@ -21,7 +21,7 @@ function login(){
         if(usernameInput==data.username){
             if(passwordInput==data.password){
                  if(usernameInput=="Millisoft"){
-                    window.location.href="../public/userPanel/user-panel-millisoft.html";
+                    window.location.href="../userPanel/user-panel-millisoft.html";
                 }
                 else{
                     let userLogin={
@@ -29,7 +29,7 @@ function login(){
                         userPassword:passwordInput
                     }
                     localStorage.setItem("Login",JSON.stringify(userLogin));
-                    window.location.href="../public/userPanel/user-panel2.html";
+                    window.location.href="../userPanel/user-panel2.html";
                 }
             }
             else{
