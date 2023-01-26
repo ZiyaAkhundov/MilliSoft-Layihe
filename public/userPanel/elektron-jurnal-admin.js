@@ -15,8 +15,6 @@ loader.addEventListener("transitionend",()=>{
 
 })
 
-let userId=JSON.parse(localStorage.getItem("Login")).username;
-document.querySelector("#navbar_account_p").innerText=userId;
 
 function unitable(){
     var namearray=[{name:"Abbasova Ləman Şakir"},{name:"Axundov Ziya Həmid"},{name:"Ağa Nicat Nizami"},{name:"Ağayev Fuad Rüfis"},{name:"Ağayev Rəvan Araz"},{name:"Babayeva Lamiə Elman"},{name:"Babazadə Vasif Asif"},{name:"Barxudarlı Kənan Yaqub"},{name:"Bayramov Nurlan Elman"},{name:"Eyvazov Məhəmməd Elşən"},{name:"Gülməmmədov Əli İmamcan"},{name:"Həsənzadə Hüseyn Elşən"},{name:"Kərimli Nadir Rəhim"},{name:"Mustafayeva Günel Cahangir"},{name:"Məlikli Mehdi Ramil"},{name:"Məmmədli Rəşid Bəxtiyar"},{name:"Nəzirli Cavad Azad"},{name:"Osmanova Nəzrin Namiq"},{name:"Qasımova Kəmalə Marif"},{name:"Rəhimov Müşviq Oqtay"},{name:"Tahirov Samir Nəzir"},{name:"Yusifov Nurlan Famil"},{name:"Şalanzadə Elnur Azər"},{name:"Əliyeva Şəbnəm Fizuli"},{name:"Ələsgərova Ləman Vahid"},{name:"Əmiraslanov İlkin Zaur"},{name:"Əsgərov Elmir Nizami"},{name:"Əsgərov Səyyad Elşən"}];
